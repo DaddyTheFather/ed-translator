@@ -164,8 +164,10 @@ export default function Home() {
             ? 'Translating...'
             : hasTranslated
             ? 'Output copied to clipboard!'
-            : 'Enter some code and click "Translate"'}
+            : 'by Ed. Enter some code and click "Translate"'}
+            {'.'}
         </div>
+        <a href="https://t.me/hedgepay_ed">Ed</a>
 
         <div className="mt-6 flex w-full max-w-[1200px] flex-col justify-between sm:flex-row sm:space-x-4">
           <div className="h-100 flex flex-col justify-center space-y-2 sm:w-2/4">
